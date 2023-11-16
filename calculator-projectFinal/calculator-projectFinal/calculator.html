@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <audio id="sound" src="sound.wav"></audio>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <button onclick="addOperator('+')" class="button-click">+</button>
+        <button onclick="addOperator('-')" class="button-click">-</button>
+        <button onclick="addOperator('*')" class="button-click">x</button>
+        <button onclick="addOperator('/')" class="button-click">÷</button>
+        <button onclick="getdisplay()" id="equal-button" class="button-click">=</button>
+        <button onclick="addNumber(7)" class="button-click">7</button>
+        <button onclick="addNumber(8)" class="button-click">8</button>
+        <button onclick="addNumber(9)" class="button-click">9</button>
+        <button onclick="addNumber(4)" class="button-click">4</button>
+        <button onclick="addNumber(5)" class="button-click">5</button>
+        <button onclick="addNumber(6)" class="button-click">6</button>
+        <button onclick="addNumber(1)" class="button-click">1</button>
+        <button onclick="addNumber(2)" class="button-click">2</button>
+        <button onclick="addNumber(3)" class="button-click">3</button>
+        <button onclick="addNumber(0)" class="button-click">0</button>
+        <button onclick="addDecimal('.')" class="button-click">.</button>
+        <button onclick="cleardisplay()" class="button-click">C</button>
+    
+        
+    </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
